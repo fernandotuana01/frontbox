@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRONTBOX</title>
+    <link rel="stylesheet" href="FRONTBOX.css">
+    <script src="FRONTBOX.js"></script>
+</head>
+<body>
+   <!-- <header>
+        <div class="menu-bg">
+            <nav class="menu">
+                <div class="menu_logo">
+                    <a href="FRONTBOX.html"><img src="./img/logo.png" alt="Logo"></a>
+                </div> 
+                <div class="nav">
+                    <ul class="nav_lista">
+                        <li><a href="#somos" class="nav_link">Quem Somos</a></li>
+                        <li><a href="#cursos" class="nav_link">Nossos cursos</a></li>
+                        <li><a href="#planos" class="nav_link">Planos</a></li>
+                        <li><a href="#vantagens" class="nav_link">Vantagens</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <h1 class="intro">Aprenda a programar, <br> um projeto por vez!</h1>
+        <hr>
+    </header> -->
+    <header>
+        <div class="menu-bg">
+            <nav class="menu">
+                <div class="menu_logo">
+                    <a href="FRONTBOX.html"><img src="./img/logo.png" alt=""></a>
+                </div>
+                <div class="nav">
+                    <ul class="nav_lista">
+                        <li class="nav-item"><a href="#somos" class="nav-link">Quem Somos</a></li>
+                        <li class="nav-item"><a href="#cursos" class="nav-link">Nossos Cursos</a></li>
+                        <li class="nav-item"><a href="#planos" class="nav-link">Planos</a></li>
+                        <li class="nav-item"><a href="#vantagens" class="nav-link">Vantagens</a></li>
+                    </ul>
+                </div>
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()"><img src="./img/menu_white_36dp.svg" alt=""></button>
+                </div>
+            </nav>
+                    <div class="mobile-menu">
+                        <ul>
+                            <li class="nav-item"><a href="#somos" class="nav-link">Quem Somos</a></li>
+                            <li class="nav-item"><a href="#cursos" class="nav-link">Nossos Cursos</a></li>
+                            <li class="nav-item"><a href="#planos" class="nav-link">Planos</a></li>
+                            <li class="nav-item"><a href="#vantagens" class="nav-link">Vantagens</a></li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </header>
+    <section class="Somos" id="somos">
+        <h2 class="sessao_titulo">Quem Somos</h2>
+        <div class="somos_corpo">
+            <div class="somos_texto">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                     Ullam ratione perferendis temporibus nulla sequi officia facere esse,
+                      nobis quaerat consectetur laborum, dolor hic rerum molestiae officiis 
+                      suscipit tenetur. Iure, dolores.
+                    </p>
+            </div>
+            <div class="somos_imagem">
+                <img src="./img/somos.png" alt="Quem Somos">
+            </div>
+        </div>
+    </section>
+    <section class="cursos" id="cursos">
+        <h2 class="sessao_titulo">Nossos Cursos</h2>
+        <div class="curso_corpo">
+            <div class="curso">
+                <img src="./img/ai.png" alt="Inteligência Artificial" class="curso_img">
+                <h3 class="curso_titulo">Inteligência Artificial</h3>
+                <p class="curso_descricao">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Ratione quam esse voluptates vel voluptatem amet dolores commodi
+                     quas accusantium, velit itaque odio harum consectetur error. 
+                     Eligendi itaque est voluptate eius.
+                </p>
+            </div>
+            <div class="curso">
+                <img src="./img/front.png" alt="Frontend" class="curso_img">
+                <h3 class="curso_titulo">Frontend</h3>
+                <p class="curso_descricao">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Eos suscipit sapiente vel assumenda, aliquam repudiandae, 
+                     dolores sint atque, earum architecto similique laboriosam 
+                     dolorum non autem recusandae quod asperiores eaque iure?
+                </p>
+            </div>
+            <div class="curso">
+                <img src="./img/seguranca.png" alt="segurança da informação" class="curso_img">
+                <h3 class="curso_titulo">segurança da Informação</h3>
+                <p class="curso_descricao">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Voluptate harum optio accusamus ducimus, laudantium eos 
+                     tempore fuga ut dolor nostrum vitae suscipit fugiat velit
+                      est error labore saepe quasi facere?
+                    </p>
+            </div>
+        </div>
+    </section>
+    <section class="planos" id="planos">
+        <h2 class="sessao_titulo">Planos</h2>
+        <div class="planos_corpo">
+            <div class="plano">
+                <h2 class="plano_titulo">Básico</h2>
+                <span class="plano_preco"><sup>R$</sup>25</span>
+                <hr class="plano_divisor">
+                <ul class="plano-lista">
+                    <li class="plano-lista__item">1 mês de acesso ilimitado</li>
+                    <li class="plano-lista__item">Acesso a todos os curos</li>
+                    <li class="plano-lista__item">Certificado de conclusão</li>
+                </ul>
+                <a href="#" class="plano__btn-comprar">Comprar</a>
+            </div>
+            <div class="plano">
+                <h2 class="plano_titulo">Premium</h2>
+                <span class="plano_preco"><sup>R$</sup>40</span>
+                <hr class="plano_divisor">
+                <ul class="plano-lista">
+                    <li class="plano-lista__item">1 mês de acesso ilimitado</li>
+                    <li class="plano-lista__item">Acesso a todos os curos</li>
+                    <li class="plano-lista__item">Certificado de conclusão</li>
+                    <li class="plano-lista__item">Suporte</li>
+                </ul>
+                <a href="#" class="plano__btn-comprar">Comprar</a>
+            </div>
+            <div class="plano">
+                <h2 class="plano_titulo">Ultra</h2>
+                <span class="plano_preco"><sup>R$</sup>250</span>
+                <hr class="plano_divisor">
+                <ul class="plano-lista">
+                    <li class="plano-lista__item">1 mês de acesso ilimitado</li>
+                    <li class="plano-lista__item">Acesso a todos os curos</li>
+                    <li class="plano-lista__item">Certificado de conclusão</li>
+                    <li class="plano-lista__item">Suporte</li>
+                    <li class="plano-lista__item">Download das aulas</li>
+                </ul>
+                <a href="#" class="plano__btn-comprar">Comprar</a>
+            </div>
+        </div>
+    </section>
+    <section class="vantagens" id="vantagens">
+        <div class="vantagem">
+            <h2 class="vantagem_titulo">Foco em Projeto</h2>
+            <p class="vantagem_descricao"> 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Corporis facere, eos eligendi soluta fugiat iste exercitationem 
+                 consequatur deserunt excepturi fugit maiores quae modi delectus
+                  accusamus, cum nulla at dicta nam.
+                </p>
+        </div>
+        <div class="vantagem">
+            <h2 class="vantagem_titulo">Portifólio incrível</h2>
+            <p class="vantagem_descricao">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                 Provident, consequuntur recusandae deserunt sint esse laboriosam
+                  ipsa hic saepe nihil necessitatibus pariatur quidem dolorem 
+                  exercitationem dolor, maxime vel facilis amet accusamus?
+            </p>
+        </div>
+        <div class="vantagem">
+            <h2 class="vantagem_titulo">Aprenda fazendo</h2>
+            <p class="vantagem_descricao">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Ut minus dignissimos laboriosam recusandae obcaecati expedita
+                  ab laborum suscipit odit dolores labore nulla consectetur
+                   ducimus voluptates quidem, cum eaque veritatis eum.
+            </p>
+        </div>
+        <div class="vantagem">
+            <h2 class="vantagem_titulo">Para todas as idades</h2>
+            <p class="vantagem_descriao">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Praesentium magni dolor aliquid distinctio doloremque cum
+                  ducimus similique accusantium odio saepe labore deserunt 
+                  sapiente repellat quas soluta laborum, possimus recusandae. Amet.
+            </p>
+        </div>
+        <div class="vantagem">
+            <h2 class="vantagem_titulo">Atualizado</h2>
+            <p class="vantagem_descricao">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Adipisci odit mollitia doloremque minus voluptatibus architecto 
+                 fugiat recusandae sit illum amet esse velit reprehenderit, tempora,
+                  quibusdam maiores doloribus dignissimos reiciendis ex!
+            </p>
+        </div>
+        <div class="vantagem">
+            <h2 class="vantagem_titulo">Comece hoje</h2>
+            <p class="vantagem_descricao">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Quae impedit molestias ipsa aspernatur iusto amet maiores 
+                possimus dolor nam odio fugit in, mollitia, voluptates neque 
+                facere praesentium culpa est iste.
+            </p>
+        </div>
+    </section>
+    <section class="newsletter">
+        <div class="newsletter-container">
+            <div class="newsletter-info">
+                <h2 class="newsletter-info_titulo">Newsletter</h2>
+                <p class="newsletter-info__descricao">Assine e fique por dentro das novidades</p>
+            </div>
+            <form action="" class="newsletter-form">
+                <input type="text" placeholder="seu e-mail" class="newsletter-form_input">
+                <button type="submit" class="newsletter-form_submit">Assinar</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="footer__copyright">Este é um projecto que servirá de maquete, para o vosso projecto final</p>
+        <a href="FRONTBOX.html">
+            <img src="./img/logo.png" alt="FRONTBOX" class="footer__logo">
+        </a>
+    </footer>
+<!--     -->
+</body>
+</html>
